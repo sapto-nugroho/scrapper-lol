@@ -17,7 +17,7 @@ driver.get(link)
 nama = driver.find_element(By.XPATH,'/html/body/main/div[6]/div[3]')
 print(nama.text)
 
-time.sleep(20)
+time.sleep(15)
 driver.quit()
 
 
